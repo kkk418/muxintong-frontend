@@ -1,0 +1,14 @@
+:root {
+  --bg-main: #eaf3ff;
+  --panel-bg: #ffffff;
+  --panel-inner: #f7fbff;
+  --border-color: #c8d9f6;
+
+  --text-main: #ffffff;
+  --text-normal: #16325c;
+  --text-secondary: #5f7aa3;
+
+  --color-primary: #2f80ff;
+  --color-warning: #ffd166;
+  --color-danger: #ff7b7b;
+}

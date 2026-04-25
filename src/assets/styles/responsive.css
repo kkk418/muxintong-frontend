@@ -1,0 +1,77 @@
+/* ============================= */
+/* 响应式兜底（比赛用） */
+/* ============================= */
+
+@media (max-width: 1200px) {
+
+  /* 卡片横排 → 竖排 */
+  .card-row {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 首页下半部分 */
+  .bottom-row {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 所有网格统一处理 */
+  .overview-grid,
+  .result-grid,
+  .status-grid,
+  .advice-grid,
+  .detail-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 表单布局 */
+  .form-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* 流程条自动换行 */
+  .flow-row,
+  .steps {
+    flex-wrap: wrap;
+  }
+
+  /* 农场地图 */
+  .farm-map {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+/* 更小屏（平板/低分辨率） */
+@media (max-width: 768px) {
+
+  /* 标题缩小 */
+  .title,
+  .page-title {
+    font-size: 24px !important;
+  }
+
+  /* 卡片数值缩小 */
+  .card-value {
+    font-size: 20px !important;
+  }
+
+  /* 面板内边距缩小 */
+  .panel,
+  .info-panel,
+  .map-panel {
+    padding: 14px !important;
+  }
+
+  /* 按钮自适应 */
+  .btn,
+  .btn-primary {
+    width: 100%;
+  }
+
+  /* 角色按钮 */
+  .role-row {
+    flex-direction: column;
+  }
+}

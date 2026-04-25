@@ -1,0 +1,94 @@
+/* ============================= */
+/* 答辩演示模式 */
+/* 给 body 加 presentation-mode 类后生效 */
+/* ============================= */
+
+body.presentation-mode {
+  font-size: 18px;
+}
+
+body.presentation-mode .title,
+body.presentation-mode .page-title {
+  font-size: 42px !important;
+  margin-bottom: 28px !important;
+}
+
+body.presentation-mode .sub-title {
+  font-size: 18px !important;
+  margin-bottom: 24px !important;
+}
+
+body.presentation-mode .panel-title {
+  font-size: 22px !important;
+  margin-bottom: 18px !important;
+}
+
+body.presentation-mode .panel,
+body.presentation-mode .info-panel,
+body.presentation-mode .map-panel,
+body.presentation-mode .flow-panel,
+body.presentation-mode .role-panel,
+body.presentation-mode .chart-panel {
+  padding: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+body.presentation-mode .card-value,
+body.presentation-mode .value,
+body.presentation-mode .overview-value {
+  font-size: 32px !important;
+}
+
+body.presentation-mode .card-title,
+body.presentation-mode .overview-label,
+body.presentation-mode .result-label,
+body.presentation-mode .detail-label,
+body.presentation-mode .advice-label {
+  font-size: 16px !important;
+}
+
+body.presentation-mode .card-desc,
+body.presentation-mode .status-bar,
+body.presentation-mode .tip-box,
+body.presentation-mode .detail-value,
+body.presentation-mode .timeline-desc,
+body.presentation-mode .zone-status {
+  font-size: 16px !important;
+  line-height: 1.8 !important;
+}
+
+body.presentation-mode .btn,
+body.presentation-mode .btn-primary,
+body.presentation-mode .role-btn {
+  height: 46px !important;
+  font-size: 16px !important;
+  padding: 0 22px !important;
+}
+
+body.presentation-mode .flow-step,
+body.presentation-mode .step,
+body.presentation-mode .info-item,
+body.presentation-mode .detail-row,
+body.presentation-mode .result-item,
+body.presentation-mode .overview-card,
+body.presentation-mode .status-card,
+body.presentation-mode .advice-card,
+body.presentation-mode .zone {
+  transform: scale(1.02);
+  transform-origin: center;
+}
+
+body.presentation-mode .log-box {
+  height: 120px !important;
+}
+
+body.presentation-mode .log-item {
+  font-size: 15px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+}
+
+body.presentation-mode .chart-panel,
+body.presentation-mode .map-panel {
+  box-shadow: 0 0 0 1px rgba(47, 128, 255, 0.08);
+}
